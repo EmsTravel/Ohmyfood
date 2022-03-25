@@ -1,6 +1,6 @@
-//@import "./utils/variables.scss";
+@import "./utils/variables.scss";
 @import "./base/general.scss";
-//@import ".components/buttons.scss";
+@import "./components/buttons.scss";
 @import "./layouts/header";
 @import "./layouts/footer";
 
@@ -149,7 +149,7 @@ GENERALITES
         color: rgb(255 255 255);
     }
     
-    .btn {
+   /* .btn {
         padding: 10px;
         border-radius: 25px;
         height: 41px;
@@ -191,7 +191,7 @@ GENERALITES
 }
     .btn.btn-secondary:hover {
         background-color: rgb(237 219 238);
-    }
+    }*/
     i.fa-solid.fa-list-ul {
         display: inline-grid;
         color: rgb(141 146 153);
