@@ -198,6 +198,10 @@ input[type=text] {
   color: black;
 }
 
+input::placeholder {
+  color: black;
+}
+
 /* *****************************************************************
 SECTIONS explorer-nos-restaurants
 ***************************************************************** */

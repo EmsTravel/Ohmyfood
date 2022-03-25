@@ -94,6 +94,9 @@ GENERALITES
         font-weight: bold;
         color: rgb(0 0 0);
     }
+    input::placeholder {
+        color: black;
+    }
        /* *****************************************************************
     SECTIONS explorer-nos-restaurants
     ***************************************************************** */
