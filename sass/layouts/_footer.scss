@@ -1,45 +1,48 @@
 footer{
-    footer {
-        background-color: rgb(27 23 23);
-        height: 199px;
-        line-height: 2em;
-    }
-    footer {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-    }
-    
-    .logo-footer img {
-        width: 147px;
-        padding: 1em;
-        color: white;
-    }
-    
-    ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.5em;
-    }
-    footer li {
-        list-style-type: none;
-        line-height: 20px;
-    }
-    i.fa-solid.fa-utensils {
-        display: inline-grid;
-        color: white;
-        font-weight: 900;
-        font-family: "Font Awesome 5 Free";
-        font-style: normal;
-        padding: 5px;
-    }
-    
-    i.fa-solid.fa-handshake-angle {
-        display: inline-grid;
-        color: rgb(255 255 255);
-        font-weight: 900;
-        font-family: "Font Awesome 5 Free";
-        font-style: normal;
-        padding: 5px;
-    }
+    background-color: rgb(27, 23, 23);
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 34px 39px 20px 50px;
 }
+    
+.logo img {
+    width: 11em;
+    height: 5em;
+}
+
+ul {
+    padding: 0;
+    margin: 0;  
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+li {
+    list-style-type: none;
+    line-height: 20px;
+}
+ul li {
+    line-height: 2.5em;
+}
+i.fa-solid.fa-utensils {
+    display: inline-grid;
+    color: white;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    padding: 5px;
+}
+
+i.fa-solid.fa-handshake-angle {
+    display: inline-grid;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    padding: 5px;
+}  
+

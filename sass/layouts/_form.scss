@@ -1,0 +1,31 @@
+@use "../utils/variables";
+
+.formulaire {
+    form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+    background-color: variables.$formulaire-background;
+}
+    & input {
+        border: none;
+        height: 27px;
+        background-color: variables.$formulaire-background;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    & textarea {
+        border: none;
+        height: 27px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        background-color: variables.$formulaire-background;
+    }
+    & ::placeholder {
+        color: black; 
+        background-color: variables.$formulaire-background;
+    }
+
+}
+    

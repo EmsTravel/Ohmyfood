@@ -1,0 +1,27 @@
+
+    /* *****************************************************************
+    SECTIONS LA NOTE ENCHANTEE
+    ***************************************************************** */
+    .wrap-la-note-enchantee {
+        background-color: rgb(242, 242, 242);
+    }
+    .intro-la-note-enchantee {
+        background: url(../img/stil-u2Lp8tXIcjw-unsplash.jpg) left center;
+        background-size: cover;
+        padding: 11rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    i.fa-solid.fa-heart {
+        position: absolute;
+        right: 19px;
+        bottom: 29px;
+        z-index: 2;
+        color: white;
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        font-style: normal;
+        font-size: 20px;
+    }
