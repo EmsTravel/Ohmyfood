@@ -157,6 +157,7 @@
         -webkit-background-clip: text;
         color:transparent;
         font-weight: 900;
+        z-index: 9999;
     }
     &:hover::after{
         opacity:1;
@@ -165,6 +166,7 @@
         -moz-transform:translateY(-50%) scale(1,1);
         -ms-transform:translateY(-50%) scale(1,1);
         -o-transform:translateY(-50%) scale(1,1);
+        z-index:999;
     }
     h3,
     p{
