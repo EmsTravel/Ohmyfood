@@ -1,13 +1,12 @@
 @use "../utils/variables";
-
 .formulaire {
-    form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 11px;
-    background-color: variables.$formulaire-background;
-}
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 11px;
+        background-color: variables.$formulaire-background;
+    }
     & input {
         border: none;
         height: 27px;
@@ -23,9 +22,7 @@
         background-color: variables.$formulaire-background;
     }
     & ::placeholder {
-        color: black; 
+        color: black;
         background-color: variables.$formulaire-background;
     }
-
 }
-    

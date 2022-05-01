@@ -1,21 +1,18 @@
-header{
-    .container-all-other-pages{
+header {
+    .container-all-other-pages {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         padding: 7px;
     }
-    
-    i.fa-solid.fa-arrow-left {
+    .fa-solid.fa-arrow-left {
         color: black;
         font-weight: 900;
         font-family: "Font Awesome 5 Free";
         font-style: normal;
         font-size: 20px;
     }
-    
     .logo-all-other-pages {
         padding: 10px 0 0 0;
     }
-
 }

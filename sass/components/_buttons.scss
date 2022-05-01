@@ -1,6 +1,5 @@
 @use "../utils/mixins";
-
-.btn{
+.btn {
     padding: 10px;
     border-radius: 25px;
     height: 41px;
@@ -16,22 +15,18 @@
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
     cursor: pointer;
-
-    &:hover{
+    &:hover {
         transform: scale(1.15);
     }
-
-    &-primary{
+    &-primary {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 54%;
         color: rgb(255, 255, 255);
         @include mixins.gradient;
-
     }
-
-    &-secondary{
+    &-secondary {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -43,11 +38,10 @@
         height: 52px;
         padding-right: 34px;
         cursor: pointer;
-
         &:hover {
             background-color: rgb(237, 219, 238);
         }
-    }  
+    }
 }
 
 .button {

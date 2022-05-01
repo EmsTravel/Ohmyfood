@@ -1,21 +1,18 @@
-header{
-    nav.container {
+header {
+    .container {
         text-align: center;
         margin-left: 0;
         box-shadow: 0px 5px 20px #999;
     }
-    
     .logo img {
         padding: 1.5em;
     }
-    
-    div.formulaire {
+    .formulaire {
         text-align: center;
         background-color: rgb(229, 226, 226);
     }
-    i.fas.fa-map-marker-alt {
+    .fas.fa-map-marker-alt {
         font-size: 13px;
         padding: 14px;
     }
-    
 }

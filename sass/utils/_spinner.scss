@@ -1,82 +1,81 @@
-
-.parent__spinner{
+.parent__spinner {
     position: fixed;
     top: 0;
     left: 0;
     background-color: white;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     z-index: 1000;
     height: 100%;
     width: 100%;
-    opacity:1;
+    opacity: 1;
     animation: fade;
     animation-duration: 0s;
-    animation-delay:3s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
-    }
+}
 
-
-.loading__spiner{/*création du loader*/
+.loading__spiner {
+    /*création du loader*/
     border: 20px solid white;
-    border-top:20px solid $primary-color;
+    border-top: 20px solid $primary-color;
     border-bottom: 20px solid $primary-color;
-    border-radius: 50%;/*arrondi des angles*/
-    width:500px;
-    height:500px;
-    margin: auto;/*placement milieu de page*/
-    animation-name:spin;
-    animation-duration:3s;
-    animation-fill-mode:forwards;
+    border-radius: 50%;
+    /*arrondi des angles*/
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    /*placement milieu de page*/
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes spin {
     0% {
         transform: rotate(0deg);
-        visibility:visible;
+        visibility: visible;
     }
-    50%{
+    50% {
         transform: rotate(180deg);
-        visibility:visible;
+        visibility: visible;
     }
     to {
         transform: rotate(360deg);
-        visibility:hidden;
-        height:0;
-        width:0;
-
+        visibility: hidden;
+        height: 0;
+        width: 0;
     }
 }
 
 @keyframes fade {
-    from{
-        opacity:1;
+    from {
+        opacity: 1;
         display: block;
     }
-    to{
-        opacity:0;
-        z-index:-100;
-        display:none;
-        height:0;
-        width:0;
+    to {
+        opacity: 0;
+        z-index: -100;
         display: none;
-        clip-path:circle(0);/* rognage de la totalité donc disparition*/
+        height: 0;
+        width: 0;
+        display: none;
+        clip-path: circle(0);
+        /* rognage de la totalité donc disparition*/
     }
 }
 
 @keyframes monanim {
-    from{
-        overflow:hidden;
+    from {
+        overflow: hidden;
     }
-    to{
-        overflow:visible;
+    to {
+        overflow: visible;
     }
 }
 
-
-    .body {
-        animation: monanim;
-        animation-duration: 3s;
-    }
-
+.body {
+    animation: monanim;
+    animation-duration: 3s;
+}
